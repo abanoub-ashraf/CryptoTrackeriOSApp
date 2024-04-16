@@ -29,13 +29,15 @@ struct CircleButtonView: View {
     }
 }
 
-#Preview {
-    Group {
-        CircleButtonView(iconName: "info")
-            .previewLayout(.sizeThatFits)
-        
-        CircleButtonView(iconName: "plus")
-            .previewLayout(.sizeThatFits)
-            .colorScheme(.dark)
-    }
-}
+@available(iOS 17.0, *)
+#Preview(traits: .sizeThatFitsLayout, body: {
+    CircleButtonView(iconName: "info")
+        .previewLayout(.sizeThatFits)
+})
+
+@available(iOS 17.0, *)
+#Preview(traits: .sizeThatFitsLayout, body: {
+    CircleButtonView(iconName: "plus")
+        .previewLayout(.sizeThatFits)
+        .preferredColorScheme(.dark)
+})

@@ -26,6 +26,8 @@
 		C88690E42BCC73B200369DD0 /* CoinRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88690E32BCC73B200369DD0 /* CoinRowView.swift */; };
 		C88690E62BCC742500369DD0 /* Preview.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88690E52BCC742500369DD0 /* Preview.swift */; };
 		C88690E82BCC7A6B00369DD0 /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88690E72BCC7A6B00369DD0 /* Double.swift */; };
+		C8E38DE02BD2FDCD00B06027 /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E38DDF2BD2FDCD00B06027 /* SearchBarView.swift */; };
+		C8E38DE22BD307BC00B06027 /* UIApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E38DE12BD307BC00B06027 /* UIApplication.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +51,8 @@
 		C88690E32BCC73B200369DD0 /* CoinRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinRowView.swift; sourceTree = "<group>"; };
 		C88690E52BCC742500369DD0 /* Preview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Preview.swift; sourceTree = "<group>"; };
 		C88690E72BCC7A6B00369DD0 /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
+		C8E38DDF2BD2FDCD00B06027 /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
+		C8E38DE12BD307BC00B06027 /* UIApplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIApplication.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,7 @@
 				C88690DE2BCC607900369DD0 /* CircleButtonAnimationView.swift */,
 				C8734CA52BCB1DDF003D34B8 /* HomeView.swift */,
 				C88690E32BCC73B200369DD0 /* CoinRowView.swift */,
+				C8E38DDF2BD2FDCD00B06027 /* SearchBarView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -147,6 +152,7 @@
 				C8734C9F2BCB1AFF003D34B8 /* Color.swift */,
 				C88690E52BCC742500369DD0 /* Preview.swift */,
 				C88690E72BCC7A6B00369DD0 /* Double.swift */,
+				C8E38DE12BD307BC00B06027 /* UIApplication.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -246,8 +252,10 @@
 				C8734CA02BCB1AFF003D34B8 /* Color.swift in Sources */,
 				C819978C2BD2E4D5008B9094 /* CoinImageService.swift in Sources */,
 				C8734CAA2BCB1F99003D34B8 /* CircleButtonView.swift in Sources */,
+				C8E38DE22BD307BC00B06027 /* UIApplication.swift in Sources */,
 				C88690DF2BCC607900369DD0 /* CircleButtonAnimationView.swift in Sources */,
 				C88690E62BCC742500369DD0 /* Preview.swift in Sources */,
+				C8E38DE02BD2FDCD00B06027 /* SearchBarView.swift in Sources */,
 				C819978E2BD2EDDB008B9094 /* LocalFileManager.swift in Sources */,
 				C88690E82BCC7A6B00369DD0 /* Double.swift in Sources */,
 				C819978A2BD2E2F5008B9094 /* CoinImageViewModel.swift in Sources */,
@@ -395,7 +403,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -424,7 +432,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

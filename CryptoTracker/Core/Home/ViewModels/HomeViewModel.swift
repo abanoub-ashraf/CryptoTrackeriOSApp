@@ -22,7 +22,7 @@ class HomeViewModel: ObservableObject {
         addSubscribers()
     }
     
-    func addSubscribers() {
+    private func addSubscribers() {
         dataService.$allCoins
             .sink { [weak self] returnedCoins in
                 self?.allCoins = returnedCoins

@@ -8,8 +8,6 @@
 import Foundation
 import Combine
 
-let apiKey = "CG-hjN1DpmtceZtaJraEf7gBPiY"
-
 class CoinDataService {
     @Published var allCoins: [CoinModel] = []
     var coinSubscription: AnyCancellable?
@@ -26,7 +24,7 @@ class CoinDataService {
         baseUrl += "page=1&"
         baseUrl += "sparkline=true&"
         baseUrl += "price_change_percentage=24h&"
-        baseUrl += "x_cg_demo_api_key=\(apiKey)"
+        baseUrl += "x_cg_demo_api_key=\(PrivateConstants.shared.apiKey)"
         
         guard let url = URL(string: baseUrl) else { return }
         

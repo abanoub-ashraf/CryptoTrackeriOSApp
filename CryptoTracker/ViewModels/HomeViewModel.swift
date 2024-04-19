@@ -12,6 +12,13 @@ import Combine
 /// ObservableObject means it can be observed from the View
 ///
 class HomeViewModel: ObservableObject {
+    @Published var statistics: [StatisticModel] = [
+        StatisticModel(title: "Title1", value: "Value1", percentageChange: 1),
+        StatisticModel(title: "Title2", value: "Value2"),
+        StatisticModel(title: "Title3", value: "Value3"),
+        StatisticModel(title: "Title4", value: "Value4", percentageChange: -7),
+    ]
+    
     @Published var allCoins: [CoinModel] = []
     @Published var  portfolioCoins: [CoinModel] = []
     @Published var searchText: String = ""

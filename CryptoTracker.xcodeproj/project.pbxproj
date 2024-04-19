@@ -28,6 +28,9 @@
 		C88690E82BCC7A6B00369DD0 /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88690E72BCC7A6B00369DD0 /* Double.swift */; };
 		C8E38DE02BD2FDCD00B06027 /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E38DDF2BD2FDCD00B06027 /* SearchBarView.swift */; };
 		C8E38DE22BD307BC00B06027 /* UIApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E38DE12BD307BC00B06027 /* UIApplication.swift */; };
+		C8E38DE42BD311B300B06027 /* StatisticModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E38DE32BD311B300B06027 /* StatisticModel.swift */; };
+		C8E38DE62BD3137B00B06027 /* StatisticView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E38DE52BD3137B00B06027 /* StatisticView.swift */; };
+		C8E38DE82BD317DF00B06027 /* HomeStatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E38DE72BD317DF00B06027 /* HomeStatsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +56,9 @@
 		C88690E72BCC7A6B00369DD0 /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
 		C8E38DDF2BD2FDCD00B06027 /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
 		C8E38DE12BD307BC00B06027 /* UIApplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIApplication.swift; sourceTree = "<group>"; };
+		C8E38DE32BD311B300B06027 /* StatisticModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticModel.swift; sourceTree = "<group>"; };
+		C8E38DE52BD3137B00B06027 /* StatisticView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticView.swift; sourceTree = "<group>"; };
+		C8E38DE72BD317DF00B06027 /* HomeStatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeStatsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +107,8 @@
 				C8734CA52BCB1DDF003D34B8 /* HomeView.swift */,
 				C88690E32BCC73B200369DD0 /* CoinRowView.swift */,
 				C8E38DDF2BD2FDCD00B06027 /* SearchBarView.swift */,
+				C8E38DE52BD3137B00B06027 /* StatisticView.swift */,
+				C8E38DE72BD317DF00B06027 /* HomeStatsView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -170,6 +178,7 @@
 			isa = PBXGroup;
 			children = (
 				C88690E12BCC63EB00369DD0 /* CoinModel.swift */,
+				C8E38DE32BD311B300B06027 /* StatisticModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -244,6 +253,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8E38DE42BD311B300B06027 /* StatisticModel.swift in Sources */,
 				C80DFBF72BD079F900F43AC8 /* CoinDataService.swift in Sources */,
 				C88690E42BCC73B200369DD0 /* CoinRowView.swift in Sources */,
 				C84DB0B82BCDA94900C5EE81 /* HomeViewModel.swift in Sources */,
@@ -253,10 +263,12 @@
 				C819978C2BD2E4D5008B9094 /* CoinImageService.swift in Sources */,
 				C8734CAA2BCB1F99003D34B8 /* CircleButtonView.swift in Sources */,
 				C8E38DE22BD307BC00B06027 /* UIApplication.swift in Sources */,
+				C8E38DE62BD3137B00B06027 /* StatisticView.swift in Sources */,
 				C88690DF2BCC607900369DD0 /* CircleButtonAnimationView.swift in Sources */,
 				C88690E62BCC742500369DD0 /* Preview.swift in Sources */,
 				C8E38DE02BD2FDCD00B06027 /* SearchBarView.swift in Sources */,
 				C819978E2BD2EDDB008B9094 /* LocalFileManager.swift in Sources */,
+				C8E38DE82BD317DF00B06027 /* HomeStatsView.swift in Sources */,
 				C88690E82BCC7A6B00369DD0 /* Double.swift in Sources */,
 				C819978A2BD2E2F5008B9094 /* CoinImageViewModel.swift in Sources */,
 				C81997882BD2E2CD008B9094 /* CoinImageView.swift in Sources */,

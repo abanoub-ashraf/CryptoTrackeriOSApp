@@ -17,13 +17,13 @@ struct PortfolioView: View {
     private var coinLogoList: some View {
         ScrollView(.horizontal, showsIndicators: false) {
             LazyHStack(spacing: 10) {
-                ForEach(vm.allCoins) { coin in
+                ForEach(vm.searchText.isEmpty ? vm.portfolioCoins : vm.allCoins) { coin in
                     CoinLogoView(coin: coin)
                         .frame(width: 75)
                         .padding(4)
                         .onTapGesture {
                             withAnimation(.easeIn) {
-                                selectedCoin = coin
+                                updateSelectedCoin(coin: coin)
                             }
                         }
                         .background(
@@ -37,6 +37,19 @@ struct PortfolioView: View {
             }
             .frame(height: 120)
             .padding(.leading)
+        }
+    }
+    
+    private func updateSelectedCoin(coin: CoinModel) {
+        self.selectedCoin = coin
+        
+        if 
+            let portfolioCoin = vm.portfolioCoins.first(where: { $0.id == coin.id }),
+            let amount = portfolioCoin.currentHoldings 
+        {
+            self.quantityText = "\(amount)"
+        } else {
+            self.quantityText = ""
         }
     }
     
@@ -106,9 +119,14 @@ struct PortfolioView: View {
     }
     
     private func saveButtonPressed() {
-        guard let coin = selectedCoin else { return }
+        guard
+            let coin = selectedCoin,
+            let amount = Double(quantityText)
+        else {
+            return
+        }
         
-        // TODO: - save to portfolio
+        vm.updatePortfolio(coin: coin, amount: amount)
         
         withAnimation(.easeIn) {
             showCheckmark = true
@@ -145,6 +163,11 @@ struct PortfolioView: View {
                 
                 ToolbarItem(placement: .topBarTrailing) {
                     trailingNavBarButton
+                }
+            }
+            .onChange(of: vm.searchText) { value in
+                if value == "" {
+                    removeSelectedCoin()
                 }
             }
         }

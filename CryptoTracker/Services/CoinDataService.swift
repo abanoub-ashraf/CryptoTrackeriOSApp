@@ -17,7 +17,7 @@ class CoinDataService {
         getCoins()
     }
     
-    private func getCoins() {
+    func getCoins() {
         var baseUrl = "https://api.coingecko.com/api/v3/coins/markets?"
         baseUrl += "vs_currency=usd&"
         baseUrl += "order=market_cap_desc&"

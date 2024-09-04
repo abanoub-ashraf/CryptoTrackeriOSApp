@@ -14,6 +14,7 @@ struct CryptoTrackerApp: App {
     /// This works cause HomeViewModel is ObservableObject
     ///
     @StateObject private var vm = HomeViewModel()
+    @State private var showLaunchView: Bool = true
     
     init() {
         UINavigationBar.appearance().titleTextAttributes = [.foregroundColor: UIColor(Color.theme.accent)]
@@ -34,11 +35,21 @@ struct CryptoTrackerApp: App {
     
     var body: some Scene {
         WindowGroup {
-            NavigationView {
-                HomeView()
-                    .navigationBarHidden(true)
+            ZStack {
+                NavigationView {
+                    HomeView()
+                        .navigationBarHidden(true)
+                }
+                .environmentObject(vm)
+                
+                ZStack {
+                    if showLaunchView {
+                        LaunchView(showLaunchView: $showLaunchView)
+                            .transition(.move(edge: .leading))
+                    }
+                }
+                .zIndex(2.0)
             }
-            .environmentObject(vm)
         }
     }
 }

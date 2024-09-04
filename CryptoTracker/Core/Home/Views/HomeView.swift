@@ -20,6 +20,7 @@ struct HomeView: View {
     @State private var showPortfolioView: Bool = false
     @State private var selectedCoin: CoinModel? = nil
     @State private var showDetailView: Bool = false
+    @State private var showSettingsView: Bool = false
     
     private var homeHeader: some View {
         HStack {
@@ -28,6 +29,8 @@ struct HomeView: View {
                 .onTapGesture {
                     if showPortfolio {
                         showPortfolioView.toggle()
+                    } else {
+                        showSettingsView.toggle()
                     }
                 }
                 .background(
@@ -175,6 +178,9 @@ struct HomeView: View {
                 }
                 
                 Spacer(minLength: 0)
+            }
+            .sheet(isPresented: $showSettingsView) {
+                SettingsView()
             }
         }
         .background(

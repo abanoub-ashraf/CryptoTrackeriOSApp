@@ -12,6 +12,9 @@ class DetailViewModel: ObservableObject {
     @Published var overViewStatistics: [StatisticModel] = []
     @Published var additionalStatistics: [StatisticModel] = []
     @Published var coin: CoinModel
+    @Published var coinDescription: String? = nil
+    @Published var websiteUrl: String? = nil
+    @Published var redditUrl: String? = nil
     
     private let coinDetailsDataService: CoinDetailDataService
     private var cancellables = Set<AnyCancellable>()
@@ -29,6 +32,14 @@ class DetailViewModel: ObservableObject {
             .sink { [weak self] returnedArrays in
                 self?.overViewStatistics = returnedArrays.overView
                 self?.additionalStatistics = returnedArrays.additional
+            }
+            .store(in: &cancellables)
+        
+        coinDetailsDataService.$coinDetails
+            .sink { [weak self] returnedCoinDetails in
+                self?.coinDescription = returnedCoinDetails?.readableDescription
+                self?.websiteUrl = returnedCoinDetails?.links?.homepage?.first
+                self?.redditUrl = returnedCoinDetails?.links?.subredditURL
             }
             .store(in: &cancellables)
     }

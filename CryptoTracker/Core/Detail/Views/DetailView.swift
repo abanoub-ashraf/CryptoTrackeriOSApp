@@ -10,6 +10,7 @@ import SwiftUI
 @available(iOS 16.0, *)
 struct DetailView: View {
     @StateObject private var vm: DetailViewModel
+    @State var showFullDescription: Bool = false
     
     private let columns: [GridItem] = [
         GridItem(.flexible()),
@@ -74,6 +75,47 @@ struct DetailView: View {
         }
     }
     
+    private var descriptionSection: some View {
+        ZStack {
+            if let coinDescription = vm.coinDescription, !coinDescription.isEmpty {
+                VStack(alignment: .leading) {
+                    Text(coinDescription)
+                        .lineLimit(showFullDescription ? nil : 3)
+                        .font(.callout)
+                        .foregroundColor(Color.theme.secondaryText)
+                    
+                    Button {
+                        withAnimation(.easeInOut) {
+                            showFullDescription.toggle()
+                        }
+                    } label: {
+                        Text(showFullDescription ? "Less" : "Read more..")
+                            .font(.caption)
+                            .fontWeight(.bold)
+                            .padding(.vertical, 2)
+                    }
+                    .accentColor(.blue)
+                }
+                .frame(maxWidth: .infinity, alignment: .leading)
+            }
+        }
+    }
+    
+    private var websiteSection: some View {
+        VStack(alignment: .leading, spacing: 20) {
+            if let websiteUrl = vm.websiteUrl, let url = URL(string: websiteUrl) {
+                Link("Website", destination: url)
+            }
+            
+            if let redditUrl = vm.redditUrl, let url = URL(string: redditUrl) {
+                Link("Reddit", destination: url)
+            }
+        }
+        .accentColor(.blue)
+        .frame(maxWidth: .infinity, alignment: .leading)
+        .font(.headline)
+    }
+    
     var body: some View {
         ScrollView {
             VStack {
@@ -85,6 +127,8 @@ struct DetailView: View {
                     
                     Divider()
                     
+                    descriptionSection
+                    
                     overViewGrid
                     
                     additionalDetailsTitle
@@ -92,6 +136,8 @@ struct DetailView: View {
                     Divider()
                     
                     additionalDetailsGrid
+                    
+                    websiteSection
                 }
                 .padding()
             }

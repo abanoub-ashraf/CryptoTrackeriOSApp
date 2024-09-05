@@ -66,6 +66,7 @@ struct HomeView: View {
                     .onTapGesture {
                         self.segue(coin: coin)
                     }
+                    .listRowBackground(Color.theme.background)
             }
         }
         .listStyle(.plain)
@@ -79,6 +80,7 @@ struct HomeView: View {
                     .onTapGesture {
                         self.segue(coin: coin)
                     }
+                    .listRowBackground(Color.theme.background)
             }
         }
         .listStyle(.plain)

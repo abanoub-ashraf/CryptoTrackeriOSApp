@@ -32,12 +32,10 @@ struct CircleButtonView: View {
 @available(iOS 17.0, *)
 #Preview(traits: .sizeThatFitsLayout, body: {
     CircleButtonView(iconName: "info")
-        .previewLayout(.sizeThatFits)
 })
 
 @available(iOS 17.0, *)
 #Preview(traits: .sizeThatFitsLayout, body: {
     CircleButtonView(iconName: "plus")
-        .previewLayout(.sizeThatFits)
         .preferredColorScheme(.dark)
 })

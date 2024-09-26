@@ -85,7 +85,7 @@ struct PortfolioView: View {
                 Text(getCurrentValue().asCurrencyWith2Decimals())
             }
         }
-        .animation(.none)
+        .animation(.none, value: false)
         .padding()
         .font(.headline)
     }

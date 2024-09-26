@@ -25,7 +25,7 @@ struct HomeView: View {
     private var homeHeader: some View {
         HStack {
             CircleButtonView(iconName: showPortfolio ? "plus" : "info")
-                .animation(.none)
+                .animation(.none, value: false)
                 .onTapGesture {
                     if showPortfolio {
                         showPortfolioView.toggle()

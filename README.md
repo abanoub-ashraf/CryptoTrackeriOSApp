@@ -98,7 +98,7 @@ using URLSession and Combine to fetch the data from the API
 [preview]: https://www.youtube.com/watch?v=JWe1PonAuBI&ab_channel=AbanoubAshraf
 
 [contact]: https://www.linkedin.com/in/abanoub-ashraf-81b329b7/
-[fb]: https://www.facebook.com/abanoub.ashraf.1110/
+[fb]: https://www.facebook.com/abanoub.ashraf.00/
 [tw]: https://twitter.com/Abanoub_Ashraf_
 [mail]: mailto:abanoub.ashraf10@gmail.com
 [youtube]: https://www.youtube.com/channel/UCaH0SjSVk045E165fGh9wjg/videos

@@ -30,6 +30,23 @@
 		C8734CA02BCB1AFF003D34B8 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8734C9F2BCB1AFF003D34B8 /* Color.swift */; };
 		C8734CA62BCB1DDF003D34B8 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8734CA52BCB1DDF003D34B8 /* HomeView.swift */; };
 		C8734CAA2BCB1F99003D34B8 /* CircleButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8734CA92BCB1F99003D34B8 /* CircleButtonView.swift */; };
+		C877A12A2CA5CB2B00C7516A /* FilterCoinsListDark.png in Resources */ = {isa = PBXBuildFile; fileRef = C877A11F2CA5CB2B00C7516A /* FilterCoinsListDark.png */; };
+		C877A12B2CA5CB2B00C7516A /* LocalPortfolioLight.png in Resources */ = {isa = PBXBuildFile; fileRef = C877A1292CA5CB2B00C7516A /* LocalPortfolioLight.png */; };
+		C877A12C2CA5CB2B00C7516A /* AddCoinsToPortfolioLight.png in Resources */ = {isa = PBXBuildFile; fileRef = C877A11E2CA5CB2B00C7516A /* AddCoinsToPortfolioLight.png */; };
+		C877A12D2CA5CB2B00C7516A /* GetCoinsListFromAPIDark.png in Resources */ = {isa = PBXBuildFile; fileRef = C877A1212CA5CB2B00C7516A /* GetCoinsListFromAPIDark.png */; };
+		C877A12E2CA5CB2B00C7516A /* LocalPortfolioCoinsDark.png in Resources */ = {isa = PBXBuildFile; fileRef = C877A1262CA5CB2B00C7516A /* LocalPortfolioCoinsDark.png */; };
+		C877A12F2CA5CB2B00C7516A /* InfoScreenDark.png in Resources */ = {isa = PBXBuildFile; fileRef = C877A1232CA5CB2B00C7516A /* InfoScreenDark.png */; };
+		C877A1302CA5CB2B00C7516A /* LaunchScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = C877A1252CA5CB2B00C7516A /* LaunchScreen.png */; };
+		C877A1312CA5CB2B00C7516A /* GetCoinsListFromAPILight.png in Resources */ = {isa = PBXBuildFile; fileRef = C877A1222CA5CB2B00C7516A /* GetCoinsListFromAPILight.png */; };
+		C877A1322CA5CB2B00C7516A /* LocalPortfolioDark.png in Resources */ = {isa = PBXBuildFile; fileRef = C877A1282CA5CB2B00C7516A /* LocalPortfolioDark.png */; };
+		C877A1332CA5CB2B00C7516A /* InfoScreenLight.png in Resources */ = {isa = PBXBuildFile; fileRef = C877A1242CA5CB2B00C7516A /* InfoScreenLight.png */; };
+		C877A1342CA5CB2B00C7516A /* LocalPortfolioCoinsLight.png in Resources */ = {isa = PBXBuildFile; fileRef = C877A1272CA5CB2B00C7516A /* LocalPortfolioCoinsLight.png */; };
+		C877A1352CA5CB2B00C7516A /* FilterCoinsListLight.png in Resources */ = {isa = PBXBuildFile; fileRef = C877A1202CA5CB2B00C7516A /* FilterCoinsListLight.png */; };
+		C877A1362CA5CB2B00C7516A /* AddCoinsToPortfolioDark.png in Resources */ = {isa = PBXBuildFile; fileRef = C877A11D2CA5CB2B00C7516A /* AddCoinsToPortfolioDark.png */; };
+		C877A1532CA5CD8900C7516A /* CoinDetailsPlusDark.png in Resources */ = {isa = PBXBuildFile; fileRef = C877A1512CA5CD8900C7516A /* CoinDetailsPlusDark.png */; };
+		C877A1542CA5CD8900C7516A /* CoinDetailsMinusDark.png in Resources */ = {isa = PBXBuildFile; fileRef = C877A14F2CA5CD8900C7516A /* CoinDetailsMinusDark.png */; };
+		C877A1552CA5CD8900C7516A /* CoinDetailsPlusLight.png in Resources */ = {isa = PBXBuildFile; fileRef = C877A1522CA5CD8900C7516A /* CoinDetailsPlusLight.png */; };
+		C877A1562CA5CD8900C7516A /* CoinDetailsMinusLight.png in Resources */ = {isa = PBXBuildFile; fileRef = C877A1502CA5CD8900C7516A /* CoinDetailsMinusLight.png */; };
 		C88690DF2BCC607900369DD0 /* CircleButtonAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88690DE2BCC607900369DD0 /* CircleButtonAnimationView.swift */; };
 		C88690E22BCC63EB00369DD0 /* CoinModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88690E12BCC63EB00369DD0 /* CoinModel.swift */; };
 		C88690E42BCC73B200369DD0 /* CoinRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88690E32BCC73B200369DD0 /* CoinRowView.swift */; };
@@ -77,6 +94,23 @@
 		C8734C9F2BCB1AFF003D34B8 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		C8734CA52BCB1DDF003D34B8 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		C8734CA92BCB1F99003D34B8 /* CircleButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButtonView.swift; sourceTree = "<group>"; };
+		C877A11D2CA5CB2B00C7516A /* AddCoinsToPortfolioDark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AddCoinsToPortfolioDark.png; sourceTree = "<group>"; };
+		C877A11E2CA5CB2B00C7516A /* AddCoinsToPortfolioLight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AddCoinsToPortfolioLight.png; sourceTree = "<group>"; };
+		C877A11F2CA5CB2B00C7516A /* FilterCoinsListDark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FilterCoinsListDark.png; sourceTree = "<group>"; };
+		C877A1202CA5CB2B00C7516A /* FilterCoinsListLight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FilterCoinsListLight.png; sourceTree = "<group>"; };
+		C877A1212CA5CB2B00C7516A /* GetCoinsListFromAPIDark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GetCoinsListFromAPIDark.png; sourceTree = "<group>"; };
+		C877A1222CA5CB2B00C7516A /* GetCoinsListFromAPILight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GetCoinsListFromAPILight.png; sourceTree = "<group>"; };
+		C877A1232CA5CB2B00C7516A /* InfoScreenDark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = InfoScreenDark.png; sourceTree = "<group>"; };
+		C877A1242CA5CB2B00C7516A /* InfoScreenLight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = InfoScreenLight.png; sourceTree = "<group>"; };
+		C877A1252CA5CB2B00C7516A /* LaunchScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LaunchScreen.png; sourceTree = "<group>"; };
+		C877A1262CA5CB2B00C7516A /* LocalPortfolioCoinsDark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LocalPortfolioCoinsDark.png; sourceTree = "<group>"; };
+		C877A1272CA5CB2B00C7516A /* LocalPortfolioCoinsLight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LocalPortfolioCoinsLight.png; sourceTree = "<group>"; };
+		C877A1282CA5CB2B00C7516A /* LocalPortfolioDark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LocalPortfolioDark.png; sourceTree = "<group>"; };
+		C877A1292CA5CB2B00C7516A /* LocalPortfolioLight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LocalPortfolioLight.png; sourceTree = "<group>"; };
+		C877A14F2CA5CD8900C7516A /* CoinDetailsMinusDark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CoinDetailsMinusDark.png; sourceTree = "<group>"; };
+		C877A1502CA5CD8900C7516A /* CoinDetailsMinusLight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CoinDetailsMinusLight.png; sourceTree = "<group>"; };
+		C877A1512CA5CD8900C7516A /* CoinDetailsPlusDark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CoinDetailsPlusDark.png; sourceTree = "<group>"; };
+		C877A1522CA5CD8900C7516A /* CoinDetailsPlusLight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CoinDetailsPlusLight.png; sourceTree = "<group>"; };
 		C88690DE2BCC607900369DD0 /* CircleButtonAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButtonAnimationView.swift; sourceTree = "<group>"; };
 		C88690E12BCC63EB00369DD0 /* CoinModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinModel.swift; sourceTree = "<group>"; };
 		C88690E32BCC73B200369DD0 /* CoinRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinRowView.swift; sourceTree = "<group>"; };
@@ -259,6 +293,7 @@
 		C8734C8F2BCB13A8003D34B8 /* CryptoTracker */ = {
 			isa = PBXGroup;
 			children = (
+				C877A1022CA5B5B700C7516A /* Screenshots */,
 				C8DABBA12C88E0BE009C8A15 /* Info.plist */,
 				C8734C902BCB13A8003D34B8 /* CryptoTrackerApp.swift */,
 				C819978F2BD2F7FE008B9094 /* Core */,
@@ -292,6 +327,30 @@
 				C8DABB9B2C88B294009C8A15 /* String.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		C877A1022CA5B5B700C7516A /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				C877A14F2CA5CD8900C7516A /* CoinDetailsMinusDark.png */,
+				C877A1502CA5CD8900C7516A /* CoinDetailsMinusLight.png */,
+				C877A1512CA5CD8900C7516A /* CoinDetailsPlusDark.png */,
+				C877A1522CA5CD8900C7516A /* CoinDetailsPlusLight.png */,
+				C877A11D2CA5CB2B00C7516A /* AddCoinsToPortfolioDark.png */,
+				C877A11E2CA5CB2B00C7516A /* AddCoinsToPortfolioLight.png */,
+				C877A11F2CA5CB2B00C7516A /* FilterCoinsListDark.png */,
+				C877A1202CA5CB2B00C7516A /* FilterCoinsListLight.png */,
+				C877A1212CA5CB2B00C7516A /* GetCoinsListFromAPIDark.png */,
+				C877A1222CA5CB2B00C7516A /* GetCoinsListFromAPILight.png */,
+				C877A1232CA5CB2B00C7516A /* InfoScreenDark.png */,
+				C877A1242CA5CB2B00C7516A /* InfoScreenLight.png */,
+				C877A1252CA5CB2B00C7516A /* LaunchScreen.png */,
+				C877A1262CA5CB2B00C7516A /* LocalPortfolioCoinsDark.png */,
+				C877A1272CA5CB2B00C7516A /* LocalPortfolioCoinsLight.png */,
+				C877A1282CA5CB2B00C7516A /* LocalPortfolioDark.png */,
+				C877A1292CA5CB2B00C7516A /* LocalPortfolioLight.png */,
+			);
+			path = Screenshots;
 			sourceTree = "<group>";
 		};
 		C88690E02BCC63C600369DD0 /* Models */ = {
@@ -397,7 +456,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C877A12A2CA5CB2B00C7516A /* FilterCoinsListDark.png in Resources */,
+				C877A12B2CA5CB2B00C7516A /* LocalPortfolioLight.png in Resources */,
+				C877A12C2CA5CB2B00C7516A /* AddCoinsToPortfolioLight.png in Resources */,
+				C877A12D2CA5CB2B00C7516A /* GetCoinsListFromAPIDark.png in Resources */,
+				C877A12E2CA5CB2B00C7516A /* LocalPortfolioCoinsDark.png in Resources */,
+				C877A12F2CA5CB2B00C7516A /* InfoScreenDark.png in Resources */,
+				C877A1302CA5CB2B00C7516A /* LaunchScreen.png in Resources */,
+				C877A1312CA5CB2B00C7516A /* GetCoinsListFromAPILight.png in Resources */,
+				C877A1322CA5CB2B00C7516A /* LocalPortfolioDark.png in Resources */,
+				C877A1332CA5CB2B00C7516A /* InfoScreenLight.png in Resources */,
+				C877A1342CA5CB2B00C7516A /* LocalPortfolioCoinsLight.png in Resources */,
+				C877A1352CA5CB2B00C7516A /* FilterCoinsListLight.png in Resources */,
+				C877A1362CA5CB2B00C7516A /* AddCoinsToPortfolioDark.png in Resources */,
 				C8DABBA52C88E17E009C8A15 /* LaunchScreen.storyboard in Resources */,
+				C877A1532CA5CD8900C7516A /* CoinDetailsPlusDark.png in Resources */,
+				C877A1542CA5CD8900C7516A /* CoinDetailsMinusDark.png in Resources */,
+				C877A1552CA5CD8900C7516A /* CoinDetailsPlusLight.png in Resources */,
+				C877A1562CA5CD8900C7516A /* CoinDetailsMinusLight.png in Resources */,
 				C8734C982BCB13AA003D34B8 /* Preview Assets.xcassets in Resources */,
 				C8734C952BCB13AA003D34B8 /* Assets.xcassets in Resources */,
 			);

@@ -11,10 +11,10 @@ struct SettingsView: View {
     @Environment(\.dismiss) private var dismiss
     
     let defaultURL = URL(string: "https://www.google.com")!
-    let youtubeURL = URL(string: "https://www.youtube.com")!
+    let youtubeURL = URL(string: "https://www.youtube.com/@SwiftfulThinking")!
     let coffeeURL = URL(string: "https://www.buymecoffee.com")!
     let coingeckoURL = URL(string: "https://www.coingecko.com")!
-    let personalURL = URL(string: "https://www.github.com")!
+    let personalURL = URL(string: "https://github.com/abanoub-ashraf")!
     
     private var swiftfulThinkingSection: some View {
         Section {
